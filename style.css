@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+ul {
+  position: fixed;
+  
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+    padding-left:30px
+}
+#my-id-1{
+  float: right;
+         }
+#my-id-2{float: right;
+        }
+#my-id-3{
+  float: right;
+}
+#my-id-4{
+  float: right;
+}
+#my-p-1{
+  text-align:center;
+  font-size:30px;
+  color:#000000;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+figcaption{
+  font-size:10px;
+  }
+#my-img{
+ display: flex;
+  justify-content: space-between;
+  }
+#my-p-2{
+  background-color: #F1F2EB ;
+} 
+#my-img-2{
+ display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#my-img-5{
+  flex-direction:row;
+  display:flex;
+  }
